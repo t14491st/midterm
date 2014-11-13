@@ -5,6 +5,16 @@ var prime = function(a){
     return false
   }
 
+var b
+ b = 2 ;
+
+while(a = b)
+if(a % b == 0){
+  return false
+  b + 1
+}else{
+  return true
+}
 
 
   if(a % 1 != 0 && a < 1){
